@@ -118,3 +118,8 @@ fi
 
 alias dotctl='/usr/bin/git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}'
 
+# bash config
+# ------------
+#source ~/.cfg.d/bash/prompt
+source ~/.cfg.d/bash/alias
+

@@ -1,6 +1,7 @@
 # original: https://bitbucket.org/durdn/cfg/src/master/.bin/install.sh
 REPO=https://github.com/peg7/dotfiles.git
 
+cd ~
 git clone --bare ${REPO} ${HOME}/.dotfiles
 function dotctl {
    /usr/bin/git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME} $@
